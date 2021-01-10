@@ -15,7 +15,7 @@ h1 {
   margin: 5% auto;
 }
 main {
-  overflow: hidden;
+  overflow-x: hidden;
   min-height: 500px;
   height: 60%;
   width: 30%;
@@ -54,6 +54,7 @@ li {
 
 .btn-display {
   display: none;
+  transition: all 0.5s linear;
 }
 
 @media screen and (max-width: 800px) {
