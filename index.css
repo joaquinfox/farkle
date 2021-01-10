@@ -7,15 +7,18 @@
   width: auto;
   overflow-x: hidden;
 }
+
 body {
   color: gold;
   display: flex;
   flex-direction: column;
   background-color: rgb(39, 28, 16);
 }
+
 h1 {
   margin: 5% auto;
 }
+
 main {
   min-height: 500px;
   height: 60%;
@@ -34,8 +37,8 @@ button {
   margin-bottom: 10%;
   color: gold;
   padding: 5%;
-  width: 7rem;
-  border-radius: 12%;
+  width: 8rem;
+  border-radius: 8%;
   background-color: rgb(39, 28, 16);
   border: gold 1px solid;
   outline: none;
@@ -61,6 +64,9 @@ li {
 @media screen and (max-width: 800px) {
   button {
     width: auto;
+  }
+  body {
+    width: 100vw;
   }
   main {
     min-height: auto;

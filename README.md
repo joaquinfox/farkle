@@ -1,0 +1,1 @@
+This is a styled dice simulator meant to be used in the game [farkle](https://www.dicegamedepot.com/farkle-rules/). It is configured to generate 6 random numbers, each between 1 and 6. This simulates six tosses of a six-sided die.
