@@ -59,4 +59,7 @@ li {
   button {
     width: auto;
   }
+  main {
+    min-height: auto;
+  }
 }
